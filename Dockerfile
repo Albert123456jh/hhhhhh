@@ -5,7 +5,7 @@ ENV VER=3.10
 ENV CONFIG_JSON1={\"log\":{\"access\":\"\",\"error\":\"\",\"loglevel\":\"warning\"},\"inbound\":{\"protocol\":\"vmess\",\"port\": 
 ENV PORT=8080
 ENV CONFIG_JSON2=,\"settings\":{\"clients\":[{\"id\":\"
-ENV UUID=99ef3f66-7447-4ffb-b241-763eda2d3775
+ENV UUID=9d0b6eab-1356-42bd-a39a-0d6e317bd57c
 ENV CONFIG_JSON3=\",\"alterId\":64}]},\"streamSettings\":{\"network\":\"ws\"}},\"inboundDetour\":[],\"outbound\":{\"protocol\":\"freedom\",\"settings\":{}}} 
 
 RUN apk add --no-cache --virtual .build-deps ca-certificates curl \
